@@ -1,0 +1,36 @@
+/* PHASE 4: Footer */
+.footer {
+  background-color: white;
+  color: gray;
+  margin: auto;
+  width: 900px;
+  height: auto;
+  font-size: 14px;
+  border-left:    1px solid lightgray;
+  border-right:  1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  border-radius: 0px 0px 5px 5px;
+  overflow: hidden;
+}
+
+.copyright {
+  display: block;
+  float: left;
+  padding: 20px 10px 20px 10px;
+  margin-left: 20px;
+}
+
+.footer-list {
+  /*display: inline-block;*/
+  float: right;
+  margin-right: 20px;
+}
+
+.footer-list li {
+  float: left;
+  padding: 20px 10px 20px 10px;
+}
+
+.footer-list li:hover {
+  color: black;
+}
